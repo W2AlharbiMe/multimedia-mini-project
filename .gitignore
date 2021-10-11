@@ -1,4 +1,4 @@
 env
 src/**/__pycache__/*
-src/public/uploads/*
-src/public/converted/*
+# src/public/uploads/*
+# src/public/converted/*
