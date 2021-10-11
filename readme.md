@@ -27,3 +27,14 @@ Example of JPG to PNG<br />
 - A website that has a form to upload the .jpg or .png file.
 - The website will convert the file to the opposite format.
 - The result can be downloaded
+
+#### Supported Extensions/Formats
+
+- bmp
+- dds
+- dib
+- png
+- jpg
+- jpeg
+- tga
+- webp
