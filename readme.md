@@ -1,11 +1,10 @@
 ## Mini Project
 
-- Language: Python
-- Web Framework: Flask
+- Language: [Python](https://www.python.org/)
+- Web Framework: [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 - Libraries:
-  - Front End: Bootstrap
-  - Backend: Pillow
-- Reason:
+  - Front End: [Bootstrap](https://getbootstrap.com/)
+  - Backend: [Pillow](https://pillow.readthedocs.io/en/stable/)
 
 ### Submission
 
