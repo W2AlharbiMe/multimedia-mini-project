@@ -69,7 +69,18 @@ ____    ____  _______ .______          _______. __    ______   .__   __.     ___
 
 ```
 
-## Mini Project
+# Table of contents:
+
+1. [Technologies](#technologies)
+2. [Submission](#submission)
+3. [Deadline](#deadline)
+4. [Task](#task)
+5. [Supported Extensions/Formats](#supported-extensionsformats)
+6. [How to Install This project](#how-to-install-this-project-)
+7. [Routes](#routes)
+8. [Project Structure](#project-structure)
+
+## Technologies
 
 - Language: [Python](https://www.python.org/)
 - Web Framework: [Flask](https://flask.palletsprojects.com/en/2.0.x/)
@@ -85,7 +96,7 @@ ____    ____  _______ .______          _______. __    ______   .__   __.     ___
 
 **Monday – 16/5/1443h**
 
-#### Task
+### Task
 
 With your pair create a program to convert from an extension to another, the <br />
 program should work both ways. The program can be developed in any <br />
