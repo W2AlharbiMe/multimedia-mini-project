@@ -1,0 +1,42 @@
+{% extends 'base.html.jinja2' %}
+{% set formats = ['bmp', 'dds', 'dib', 'png', 'jpg', 'jpeg', 'tga', 'webp'] %}
+
+{% block title %}
+  Converter
+{% endblock title %}
+
+
+{% block head %}
+  {# <script>const formats = {{formats}};</script> #}
+  {# <script src="/public/assets/js/app.js" defer></script> #}
+{% endblock head %}
+
+
+{% block content %}
+  <h1>Convert Images to any type.</h1>
+  <p class="text-muted">use the following form to upload the image.</p>
+
+  <h5>supported extensions/formats:</h5>
+  <ul>
+    {% for format in formats %}
+    <li>.{{ format }}</li>
+    {% endfor %}
+  </ul>
+
+  <form method="POST" enctype="multipart/form-data">
+    <select class="form-control my-3" name="to" id="to">
+      <option value='to' selected>To</option>
+      {% for format in formats %}
+      <option value="{{ format }}">.{{ format }}</option>
+      {% endfor %}
+    </select>
+
+    <div class="form-group">
+      <input type="file" name="image" id="file" />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-4">Upload</button>
+  </form>
+{% endblock content %}
+
+
