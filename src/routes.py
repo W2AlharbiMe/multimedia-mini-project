@@ -33,7 +33,6 @@ def converter():
   if request.method == 'POST':
     values = request.values
 
-    # TODO: read `_from` prop using method `get_file_extension`
     # get formats
     _from = get_file_extension(request.files['image'].filename)
     _to = values['to']
