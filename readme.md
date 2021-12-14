@@ -79,6 +79,7 @@ ____    ____  _______ .______          _______. __    ______   .__   __.     ___
 6. [How to Install This project](#how-to-install-this-project-)
 7. [Routes](#routes)
 8. [Project Structure](#project-structure)
+9. [Powerpoint](#powerpoint)
 
 ## Technologies
 
@@ -225,3 +226,7 @@ static                  GET        /public/<path:filename>
 
 25 directories, 23 files
 ```
+
+---
+## Powerpoint
+https://docs.google.com/presentation/d/11OZzKZiHOMQquUTjEkspPJUW6_bdMGrWgjTyGl3h7co
